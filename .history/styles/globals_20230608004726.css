@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+}
+
+@layer components {
+    .onHover {
+        @apply shadow-2xl shadow-[black] p-4 text-orange-600 rounded-md 
+    }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+}
+
+@layer components {
+    .onHover {
+        @apply shadow-lg shadow-[black] p-5 flex item
+    }
+}

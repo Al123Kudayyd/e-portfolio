@@ -1,0 +1,26 @@
+import Image from 'next/image'
+import React from 'react'
+
+function AboutMe() {
+  return (
+    <div className="p-10">
+        <h1 className='text-center text-4xl font-bold'>About <span className='text-purple-500'>Me.</span></h1>
+        <div className='flex-col justify-center'>
+            <img src="" alt="" />
+            <div className='pl-10 space-y-4 text-xl font-semibold'>
+                <p>
+                    Building <span className='text-purple-500'>beautiful</span> , <span className='text-purple-500'>customisable</span> and <span className='text-purple-500'>responsive user</span> <br /> experiences is my passion. I enjoy pushing myself to <br /> solve problems and creating solutions that positively affect people.
+                </p>
+
+                <p>Currently, I am looking for an <span className='text-purple-500'>job</span> as well as an internship <br /> to improve my experiences in <span className='text-purple-500'>frontend engineering</span>.</p>
+
+                <p>Check out my resume!</p>
+                <button className='bg-purple-500 border-purple-500 border-2 px-16 py-2 text-white hover:bg-white hover:text-purple-500 transition duration-300'>Resume</button>
+            </div>
+        </div>
+        
+    </div>
+  )
+}
+
+export default AboutMe

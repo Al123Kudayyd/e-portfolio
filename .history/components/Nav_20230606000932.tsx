@@ -1,0 +1,18 @@
+import React from 'react'
+import { MdOutlineModeNight } from 'react-icons/md'
+
+function Nav() {
+  return (
+    <div className='my-5 mx-10 sm:'>
+        <ul className='flex space-x-5 sm:text-xl items-center font-bold cursor-pointer justify-end text-xs'>
+            <li>About Me</li>
+            <li>My Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+            <li><MdOutlineModeNight className='text-2xl' /></li>
+        </ul>
+    </div>
+  )
+}
+
+export default Nav
