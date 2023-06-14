@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 
 function Contact() {
     const [loading, setLoading] = useState(false)
-    const form = React.useRef<HTMLFormElement | any>();
+    const form = useRef();
 
     const sendEmail = (e:any) => {
         e.preventDefault();
@@ -27,7 +27,7 @@ function Contact() {
         <h1 className='text-center font-bold text-5xl'>Get in <span className='text-purple-500'>Touch!</span></h1>
         <div className='flex justify-center'>
             <div className='shadow-[8px_8px_16px_15px_rgba(0,0,0,0.2)] mt-16 w-5/6 md:w-1/2 rounded-xl'>
-            <form ref={form} onSubmit={sendEmail} className='flex flex-col justify-center items-center my-5 '>
+            <form re onSubmit={sendEmail} className='flex flex-col justify-center items-center my-5 '>
                 <label className='border-2 border-[#dddada] w-3/4 mt-5'>
                     <input placeholder='Name' className='w-full dark:bg-black text-xl p-2 outline-none' type="text" name="user_name" />
                 </label>
