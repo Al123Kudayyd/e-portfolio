@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import { type } from 'os'
 import React from 'react'
 
 function AboutMe() {
+
+    
 
   return (
     <div className="p-10 dark:bg-[#0b0b0b] dark:text-white">
@@ -14,7 +15,6 @@ function AboutMe() {
             width={300}
             height={300}
             className='rounded-full shadow-lg shadow-[black] sm:mx-10 my-5'
-            alt='about'
             />
             <div className=' pl-10 space-y-4 text-xl font-semibold'>
                 <p>

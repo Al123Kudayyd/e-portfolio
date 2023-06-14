@@ -16,21 +16,21 @@ function Project() {
             width={800}
             height={800}
             className='rounded-2xl my-20 shadow-[gray] shadow-2xl'
-            alt='project'
+            a
             />
             <Image
             src={project2}
             width={800}
             height={800}
             className='rounded-2xl shadow-[gray] mb-20 shadow-2xl'
-            alt='project'
+            a
             />
             <Image
             src={project3}
             width={800}
             height={800}
             className='rounded-2xl shadow-[gray] mb-20 shadow-2xl'
-            alt='project'
+            a
             />
         </div>
     </div>

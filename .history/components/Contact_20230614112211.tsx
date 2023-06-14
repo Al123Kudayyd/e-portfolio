@@ -7,7 +7,7 @@ function Contact() {
     const [loading, setLoading] = useState(false)
     const form = useRef();
 
-    const sendEmail = (e:any) => {
+    const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('service_awa0p5t', 'template_s3chdi9', e.target, 'A6nJzYUpkG0siKVY7')

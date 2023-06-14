@@ -4,17 +4,22 @@ import React from 'react'
 
 function AboutMe() {
 
+    interface Props {
+      width: number,
+      height: number
+      className: string
+    }
+
   return (
     <div className="p-10 dark:bg-[#0b0b0b] dark:text-white">
         <h1 className='text-center text-5xl font-bold'>About <span className='text-purple-500'>Me.</span></h1>
         <div className='grid grid-cols-1 md:grid md:grid-cols-2 items-center justify-center p-10'>
-            <Image
+            <Image 
             src={'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'}
             objectFit="cover"
             width={300}
             height={300}
             className='rounded-full shadow-lg shadow-[black] sm:mx-10 my-5'
-            alt='about'
             />
             <div className=' pl-10 space-y-4 text-xl font-semibold'>
                 <p>

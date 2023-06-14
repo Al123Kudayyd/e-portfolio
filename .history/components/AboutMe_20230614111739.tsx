@@ -14,7 +14,7 @@ function AboutMe() {
             width={300}
             height={300}
             className='rounded-full shadow-lg shadow-[black] sm:mx-10 my-5'
-            alt='about'
+            alt=''
             />
             <div className=' pl-10 space-y-4 text-xl font-semibold'>
                 <p>
