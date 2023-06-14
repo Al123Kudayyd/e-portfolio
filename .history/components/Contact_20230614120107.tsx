@@ -19,9 +19,9 @@ function Contact() {
           e.target.reset()
           setLoading(true)
           setTimeout(() => {
-            location.reload()
-          },1000)
-          
+            
+          })
+          location.reload()
       };
     
   return (

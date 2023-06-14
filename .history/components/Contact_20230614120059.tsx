@@ -18,10 +18,8 @@ function Contact() {
           });
           e.target.reset()
           setLoading(true)
-          setTimeout(() => {
-            location.reload()
-          },1000)
-          
+          setT
+          location.reload()
       };
     
   return (
